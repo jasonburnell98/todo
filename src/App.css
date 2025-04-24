@@ -1,0 +1,17 @@
+/* Light mode default */
+body {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode override */
+.dark body,
+.dark html {
+  background-color: #0f172a; 
+  color: #f1f5f9;
+}
+
+.dark .App {
+  background-color: transparent;
+}
